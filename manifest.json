@@ -1,0 +1,11 @@
+{
+  "name": "ResetFields",
+  "label": "Reset Fields",
+  "platform": "HTML",
+  "version": "1.0",
+  "author": "you",
+  "description": "Reset field values from original field",
+  "properties": {
+    "hasConfig": false
+  }
+}
