@@ -20,9 +20,9 @@ define([
 
     resetFields: function() {
 
-      const layerUrl = "YOUR_FEATURE_LAYER_URL"; // <-- replace this
-      const targetField = "Status";              // field to reset
-      const originalField = "Status_Original";   // original field
+      const layerUrl = "https://mapmyschools.com/rspgis/rest/services/Hosted/PlanningAreasProjections_Turner/FeatureServerL"; // <-- replace this
+      const targetField = "calc_es";    // field to reset
+      const originalField = "rsp_es";   // original field
 
       const queryTask = new QueryTask(layerUrl);
       const query = new Query();
